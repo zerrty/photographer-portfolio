@@ -36,11 +36,16 @@ a {
 }
 
 .hero__item {
+    transition: all 250ms ease-in-out;
     color: var(--white);
     margin-right: 30px;
     font-family: "Inter", sans-serif;
     font-size: 20px;
     line-height: calc(50/20)
+}
+
+.hero__item:hover{
+    transform: scale(1.1);
 }
 
 a:visited {
@@ -84,6 +89,12 @@ a:visited {
     align-items: center;
     margin-top: 25px;
     background-color: var(--gold);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.hero__button:hover{
+    transform: scale(1.1);
 }
 
 .skills {
@@ -130,9 +141,6 @@ a:visited {
     margin-bottom: 10px;
 }
 
-.skills__list {}
-
-.skills__item {}
 
 .skills__elem {
     text-align: center;
@@ -153,4 +161,19 @@ a:visited {
     font-size: 18px;
     line-height: calc(30/15);
     font-weight: 400;
+}
+
+.footer__section{
+    height: 150px;
+    width: 1440px;
+    background-color:   var(--bg-dark);
+    
+}
+
+.footer__text{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    line-height: calc(50/20);
+    font-weight: 400;
+    color: var(--white);
 }
