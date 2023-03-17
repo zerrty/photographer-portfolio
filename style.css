@@ -164,10 +164,11 @@ a:visited {
 }
 
 .footer__section{
+    display: flex;
     height: 150px;
     width: 1440px;
-    background-color:   var(--bg-dark);
-    
+    background-color: var(--bg-dark);
+    align-items: center;
 }
 
 .footer__text{
@@ -176,4 +177,6 @@ a:visited {
     line-height: calc(50/20);
     font-weight: 400;
     color: var(--white);
+    margin-right: 430px;
+    margin-left: 20px;
 }
