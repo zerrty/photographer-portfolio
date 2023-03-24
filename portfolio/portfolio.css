@@ -1,0 +1,166 @@
+/* Portfolio */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.portfolio {
+    height: 1500px;
+    width: 100%;
+    background: black;
+    align-content: center;
+}
+
+/* Portfolio_title */
+
+
+.portfolio_title { 
+    color: #bdae82;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-size: 40px;
+    line-height: calc(80/40);
+    font-weight: 700;
+} 
+
+.portfolio_title::before {
+    content: "";
+    display: inline-block;
+    width: 250px;
+    height: 2px;
+    background-color: #bdae82;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.portfolio_title::after {
+    content: "";
+    display: inline-block;
+    width: 250px;
+    height: 2px;
+    background-color: #bdae82;
+    align-items: center;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+/* Portfolio blocks */
+
+.portfolio_blocks {
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 55px;
+
+}
+
+.portfolio_block {
+    display: inline-block;
+    width: 200px;
+    height: 17px;
+    border: 1.5px solid #bdae82;
+
+    vertical-align: top;
+    padding: 15px 0;
+}
+
+
+.portfolio_link {
+    color: #bdae82;
+
+    transition: all 0.9s;
+}
+
+.portfolio_block:hover {
+    background-color: #bdae82;
+    color: black;
+
+    transition: all 0.9s;
+}
+
+/* Portfolio images */
+
+.portfolio_images {
+    position: absolute;
+    height: 1145px;
+    left: 1.39%;
+    right: 1.39%;
+    top: 250px;
+}
+
+.portfolio_image_1 {
+    position: absolute;
+    height: 560px;
+    left: 0%;
+    right: 67.86%;
+    top: 0px;
+
+    background: url(../photographer-portfolio/portfolio-img.png);
+    border-radius: 0px;
+}
+.portfolio_image_2 {
+    position: absolute;
+    height: 560px;
+    left: 33.93%;
+    right: 33.93%;
+    top: 0px;
+
+    background: url(../photographer-portfolio/portfolio-img-1.png);
+    border-radius: 0px;
+}
+
+.portfolio_image_3 {
+    position: absolute;
+    height: 560px;
+    left: 67.86%;
+    right: 0%;
+    top: 0px;
+
+    background: url(../photographer-portfolio/portfolio-img-2.png);
+    border-radius: 0px;
+}
+
+.portfolio_image_4 {
+    position: absolute;
+    height: 560px;
+    left: 0%;
+    right: 67.86%;
+    top: 585px;
+
+    background: url(../photographer-portfolio/portfolio-img-3.png);
+    border-radius: 0px;
+}
+
+.portfolio_image_5 {
+    position: absolute;
+    height: 560px;
+    left: 33.93%;
+    right: 33.93%;
+    top: 585px;
+
+    background: url(../photographer-portfolio/portfolio-img-4.png);
+    border-radius: 0px;
+}
+
+.portfolio_image_6 {
+    position: absolute;
+    height: 560px;
+    left: 67.86%;
+    right: 0%;
+    top: 585px;
+
+    background: url(../photographer-portfolio/portfolio-img-5.png);
+    border-radius: 0px;
+}
