@@ -1,0 +1,10 @@
+.hero__logo {
+  margin: 20px;
+  fill: var(--white);
+  cursor: pointer;
+  transition: 200ms;
+
+  &:hover {
+    fill: var(--gold);
+  }
+}

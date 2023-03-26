@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-dark: #000;
+  --white: #fff;
+  --gold: #bdae82;
+}
+
+body {
+  background-color: var(--bg-dark);
+}
+
+ul,
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+}
