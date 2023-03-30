@@ -1,9 +1,18 @@
 .hero__button {
   width: 220px;
   height: 55px;
+  font-size: 20px;
+  font-weight: 400;
   font-family: 'Inter', sans-serif;
   text-align: center;
   align-items: center;
   margin-top: 25px;
   background-color: var(--gold);
+  transition: 300ms;
+  border: none;
+  cursor: pointer;
+
+  &:hover{
+    color: var(--white);
+  }
 }
