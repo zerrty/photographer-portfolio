@@ -16,3 +16,18 @@
     color: var(--white);
   }
 }
+
+.contact__btn {
+  text-align: center;
+  padding: 7px 40px;
+  width: 220px;
+  height: 55px;
+  background-color: var(--gold);
+  border: none;
+  cursor: pointer;
+  transition: 200ms;
+
+  &:hover{
+    color: var(--white);
+  }
+}
