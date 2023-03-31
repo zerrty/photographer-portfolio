@@ -18,6 +18,7 @@ a {
     width: 100%;
     background: black;
     align-content: center;
+    max-width: 1440px;
 }
 
 /* Portfolio_title */
@@ -93,74 +94,19 @@ a {
 /* Portfolio images */
 
 .portfolio_images {
-    position: absolute;
-    height: 1145px;
-    left: 1.39%;
-    right: 1.39%;
-    top: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
 }
 
-.portfolio_image_1 {
-    position: absolute;
-    height: 560px;
-    left: 0%;
-    right: 67.86%;
-    top: 0px;
-
-    background: url(../photographer-portfolio/portfolio-img.png);
+.portfolio_images div {
     border-radius: 0px;
-}
-.portfolio_image_2 {
-    position: absolute;
-    height: 560px;
-    left: 33.93%;
-    right: 33.93%;
-    top: 0px;
-
-    background: url(../photographer-portfolio/portfolio-img-1.png);
-    border-radius: 0px;
+    justify-content: baseline;
+    margin: 15px;
 }
 
-.portfolio_image_3 {
-    position: absolute;
-    height: 560px;
-    left: 67.86%;
-    right: 0%;
-    top: 0px;
-
-    background: url(../photographer-portfolio/portfolio-img-2.png);
-    border-radius: 0px;
+.portfolio_images div img {
+    width: 450px;
+    
 }
 
-.portfolio_image_4 {
-    position: absolute;
-    height: 560px;
-    left: 0%;
-    right: 67.86%;
-    top: 585px;
-
-    background: url(../photographer-portfolio/portfolio-img-3.png);
-    border-radius: 0px;
-}
-
-.portfolio_image_5 {
-    position: absolute;
-    height: 560px;
-    left: 33.93%;
-    right: 33.93%;
-    top: 585px;
-
-    background: url(../photographer-portfolio/portfolio-img-4.png);
-    border-radius: 0px;
-}
-
-.portfolio_image_6 {
-    position: absolute;
-    height: 560px;
-    left: 67.86%;
-    right: 0%;
-    top: 585px;
-
-    background: url(../photographer-portfolio/portfolio-img-5.png);
-    border-radius: 0px;
-}
