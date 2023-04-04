@@ -71,11 +71,14 @@ a {
 }
 
 .header__logo {
+  width: 50px;
+  height: 50px;
   margin: 20px;
   fill: var(--white);
   cursor: pointer;
   -webkit-transition: 200ms;
   transition: 200ms;
+  text-align: center;
 }
 .header__logo:hover {
   fill: var(--gold);
@@ -203,6 +206,16 @@ a {
 }
 .skills__elem {
   text-align: center;
+}
+.skills__icon {
+  width: 62px;
+  height: 50px;
+  fill: var(--gold);
+}
+.skills__icon-mic {
+  fill: var(--gold);
+  width: 32px;
+  height: 50px;
 }
 .skills__subtitle {
   color: var(--white);
@@ -533,6 +546,8 @@ a {
   margin-left: 20px;
 }
 .footer__icons {
+  width: 32px;
+  height: 32px;
   fill: #fff;
   margin-left: 20px;
   -webkit-transition: all 0.3s ease-in-out;
