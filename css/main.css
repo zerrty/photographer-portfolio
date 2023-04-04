@@ -86,7 +86,6 @@ a {
 
 .hero {
   height: 910px;
-  width: 1440px;
   background-image: url("../../images/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -187,6 +186,12 @@ a {
   margin-left: 20px;
   margin-bottom: 10px;
 }
+@media screen and (max-width: 768px) {
+  .skills__title::after {
+    width: 117px;
+    margin-bottom: 7px;
+  }
+}
 .skills__title::before {
   content: "";
   display: inline-block;
@@ -196,6 +201,18 @@ a {
   margin-right: 20px;
   margin-bottom: 10px;
 }
+@media screen and (max-width: 768px) {
+  .skills__title::before {
+    width: 117px;
+    margin-bottom: 7px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .skills__title {
+    font-size: 32px;
+    line-height: 2;
+  }
+}
 .skills__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -203,6 +220,21 @@ a {
   gap: 40px;
   margin: 0 20px;
   justify-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .skills__list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 44px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .skills__item {
+    width: 39.57%;
+  }
 }
 .skills__elem {
   text-align: center;
@@ -531,7 +563,6 @@ a {
   display: -ms-flexbox;
   display: flex;
   height: 150px;
-  width: 1440px;
   background-color: var(--bg-dark);
   -webkit-box-align: center;
       -ms-flex-align: center;

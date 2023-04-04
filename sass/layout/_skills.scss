@@ -27,6 +27,11 @@
       align-items: center;
       margin-left: 20px;
       margin-bottom: 10px;
+
+      @media screen and (max-width:768px){
+        width: 117px;
+        margin-bottom: 7px;
+      }
     }
 
     &::before{
@@ -37,8 +42,19 @@
       background-color: var(--gold);
       margin-right: 20px;
       margin-bottom: 10px;
+
+      @media screen and (max-width:768px){
+        width: 117px;
+        margin-bottom: 7px;
+      }
     }
     
+
+    @media screen and (max-width:768px){
+      font-size: 32px;
+      line-height: calc(64/32);
+    }
+
   }
   
   
@@ -47,9 +63,19 @@
     gap: 40px;
     margin: 0 20px;
     justify-self: center;
+    justify-content: center;
+
+    @media screen and (max-width:768px){
+      flex-wrap: wrap;
+      gap: 44px;
+    }
   }
   
   &__item {
+
+    @media screen and (max-width:768px) {
+      width: 39.57%;
+    }
   }
   
   &__elem {
